@@ -18,4 +18,5 @@ if(navigator.geolocation){   /*checking if browser supports geolocation, navigat
     );
 }    
 
-L.map("map");
+L.map("map").setView([0,0],10);
+
